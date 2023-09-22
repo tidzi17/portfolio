@@ -1,0 +1,165 @@
+@import 'variables';
+.home-container{
+    @include pages;
+    color: white;
+    position: relative;
+    z-index: 9;
+    .home-content{
+        margin: 10% 5%;
+        h3{
+            color: $pgrey;
+            font-size: 2vw;
+        }
+        .wave{
+            width: 2vw;
+            height: 4vh;
+
+        }
+        h1{
+            font-size: 5vw;
+            margin-top: -2%;
+        }
+        span{
+            background: linear-gradient(0deg, #f1aa16, #ff7f50);
+            background-clip: text;
+            -webkit-background-clip: text; /* For compatibility with some browsers */
+            color: transparent; /* Hide the original text color */
+            transition: scale(0.1);
+        }
+        p{
+            color: $pgrey;
+            width: 65vw;
+            font-weight: 500;
+            font-size: 1.3vw;
+            margin-top: -3%;
+            margin-bottom: 5%;
+        }
+        .glow-on-hover {
+            width: 18.7vw;
+            height: 3.7vw;
+            border: 1px solid white;
+            outline: none;
+            color: #fff;
+            background: #111;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 50px;
+            font-size: 1.25vw;
+            font-weight:100;
+        }
+        
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #f1aa16, #ff7f50,#f1aa16, #9c411f,#f1aa16, #44251a,#f1aa16);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 50px;
+        }
+        
+        .glow-on-hover:active {
+            color: #000
+        }
+        
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+        
+        .glow-on-hover:hover:before {
+            opacity: 1;
+        }
+        
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #222222;
+            left: 0;
+            top: 0;
+            border-radius: 50px;
+        }
+        
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
+       
+    }
+    .links-container{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 87%;
+        margin-top: -5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .links-item{
+            margin-bottom: 35%;
+            cursor: pointer;
+            width: 2vw;
+            height: 4vh;
+        }
+        .line{
+            width: 1px;
+            height: 10vh;
+            background-color: white;
+        }
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .home-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .home-container .links-container {
+        position: relative;
+        margin-top: 5%;
+        margin-left: 0;
+        padding: 0;
+        display: flex;
+    }
+    h3{
+        font-size: 14vw;
+    }
+}
+
+
+
+
+#tsparticles{ 
+    position:fixed;
+    top: 0;
+    left: 0;
+     width: 100%;
+      height:100%; 
+      background-color:#222222;
+      background-image: url(""); 
+     background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: 50% 50%;
+      z-index: -1;
+      
+     }
+     

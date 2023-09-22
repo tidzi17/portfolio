@@ -1,0 +1,57 @@
+@import 'variables';
+.contact-container{
+    @include pages;
+}
+
+.contact-content{
+    width: 78vw;
+    height: 60vh;
+    margin: 5% auto;
+    display: flex;
+    .cinfo{
+        width: 50%;
+        height: 100%;
+        padding-left: 3%;
+        h4{
+            
+            color: white;
+            width: 70%;
+            font-size: 40px;
+            font-weight: 600;
+            span{
+                color: $primary;
+            }
+        }
+        p{
+            width: 80%;
+            color: rgb(226, 226, 226);
+            font-size: 18px;
+            margin-top: -5%;
+           
+        }
+        .social-icons-container{
+            width: 150px;
+            height: fit-content;
+            margin-top: 15%;
+            .icons{
+                padding: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .icons-item{
+                    width: 35px;
+                    height: 35px;
+                    cursor: pointer;    
+                }
+                #second-item{
+                    margin-top: 5%;
+                }
+            }
+            
+        }
+    }
+    .contact-form{
+        width: 40%;
+        height: 100%;
+    }
+}

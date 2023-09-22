@@ -1,0 +1,13 @@
+$primary: #FFA400;
+$bg-sec: #333333;
+$pgrey: rgb(197, 192, 192);
+$heading1: rgba(85, 84, 84, 0.062);
+$heading2: rgb(219, 215, 215);
+
+@mixin pages{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}

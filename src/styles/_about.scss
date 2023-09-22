@@ -1,0 +1,113 @@
+@import 'variables';
+.about-container{
+    @include pages;
+}
+ .bg-item{
+    position: absolute;
+    z-index: 1;
+    margin-top: 6%;
+    font-size: 5vw;
+    font-weight: 700;
+    color: $heading1;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 4vw;
+    #bg2{
+        padding-left: 65vw;
+        padding-top: 32vh;
+
+    }
+ }
+.about-content{
+    z-index: 2;
+    margin: 0 auto;
+    width: 70vw;
+    padding-top: 5%;
+    position: relative;
+    h4{
+        text-transform: uppercase;
+        color: $primary;
+        font-size: 1.1vw;
+    }
+    .about-me-container{
+        width: 100%;
+        .text-block{
+            color: rgb(207, 205, 205);
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.3vw;
+            margin-top: -1%;
+            line-height: 130%;
+        }
+    }
+    .skills-container{
+        h4{
+            margin-top: 5%;
+        }
+        .skills-box{
+            width: 70%;
+            height: 10vh;
+            padding-left: 0.5%;
+            margin-top: -2%;
+            /* background-color: grey; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .skills-item{
+                width: 2.5vw;
+                height: 4.8vh;
+            }
+        }
+    }
+    .buttons-container{
+        display: flex;
+        width: 40%;
+        padding-top: 4%;
+        button{
+            width: 10vw;
+            height: 5vh;
+            border-radius: 50px;
+            color: white;
+            font-size: 1.1vw;
+            cursor: pointer;
+        }
+        #btn1{
+            background-color: $primary;
+            border: none;
+            
+        }
+        #btn2{
+            background-color: rgb(83, 82, 82);
+            border: none;
+            margin-left: 5%;
+        }
+    }
+    
+}
+
+/* button{
+    width: 200px;
+    margin-top: 20%;
+}
+.animated-image img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 12vw;
+    background-size: cover;
+    opacity: 0;
+    animation: fadeInOut 5s linear forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+   */

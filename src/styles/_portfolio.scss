@@ -1,0 +1,146 @@
+@import 'variables';
+.portfolio-container{
+    @include pages;
+}
+
+.projects-container{
+    width: 75vw;
+    height: 250vh;
+    margin: 3% auto;
+    color: white;
+        .projects-item{
+            width: 90%;
+            height: 34vh;
+            background-color: #252525;
+            border-radius: 40px;
+          /*   border-bottom: 1px solid #FFA400; */
+            display: flex;
+            flex-direction: row;
+            gap: 70px;
+            margin: 3% auto;
+            text-align: center;
+            padding: 10px;
+            .projects-item-img {
+                width: 50%;
+                height:  30.62vh;
+                overflow: hidden; 
+                cursor: pointer;
+                border-radius: 40px;
+                margin: 1% ;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                .scrolling-image{
+                    width: 100%;
+                    height: auto;
+                    transform: translateX(0); 
+                    transition: transform 9s ease-in-out; 
+                }
+                &:hover .scrolling-image {
+                    transform: translateY(-1720px);
+                  }
+            }
+            .projects-item-text{
+                width: 35%;
+                h3{
+                    font-size: 1.2vw;
+                    color: #FFA400;
+                }
+                p{
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 1.2vw;
+                }
+                .tech{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15%;
+                    padding-left: 30%;
+                    p{
+                        border: 1px solid rgb(151, 151, 151);
+                        box-sizing: border-box;
+                        padding: 6px;
+                        font-size: 1.1vw;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .projects-item-links{
+                padding-top: 4rem;
+                padding-right: 1%;
+                display: flex;
+                flex-direction: column;
+                gap: 6%;
+                p{
+                    margin-top: -1%;
+                }
+                img{
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Flying animation
+button{
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    margin-top: 20%;
+    margin-left: 10%;
+    border-radius: 50%;
+    border: none;  
+}
+.animated-icon {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: fly 5s linear;
+    z-index: 9;
+}
+
+
+@keyframes fly {
+    0% {
+        top: 0;
+        right: 0;
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        top: 10%;
+        right: 10%;
+        transform: translateX(10px) translateY(-10px);
+    }
+    50% {
+        top: 50%;
+        right: 50%;
+        transform: translateX(50px) translateY(-50px);
+    }
+    75% {
+        top: 80%;
+        right: 80%;
+        transform: translateX(10px) translateY(-10px);
+    }
+    100% {
+        top: 90%;
+        right: 90%;
+        opacity: 0;
+        transform: translateX(0) translateY(0);
+    }
+} */
+
