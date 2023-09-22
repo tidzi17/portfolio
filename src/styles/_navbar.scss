@@ -40,7 +40,7 @@
     button{
         border: none;
         background: none;
-        font-size: 20px;
+        font-size: 30px;
     }
     .mobile-menu-icon{
         display: none;
@@ -88,11 +88,10 @@
         
     }
     .mobile-menu-icon{
-        width: 50px;
         position: absolute;
         display: block;
         right: 50px;
-        top: 38px;
+        top: 30%;
         color: $primary;
     }
           }
