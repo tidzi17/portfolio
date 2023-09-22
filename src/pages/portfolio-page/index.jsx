@@ -1,5 +1,5 @@
 import React from 'react';
-import project from '../../assets/car-rental-full.c58b37da333d73238fdd.webp';
+import project from '../../assets/page.png';
 import giticon from '../../assets/githubwhite.png';
 import linkicon from '../../assets/link.png';
 import '../../styles/main.scss'
