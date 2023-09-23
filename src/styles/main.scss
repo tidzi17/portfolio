@@ -7,17 +7,28 @@
 @import 'portfolio';
 
 
-/* Customize the scrollbar width and color */
+
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 12px; 
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #FFA400; /* Color of the thumb (the draggable part) */
-    border-radius: 5px; /* Rounded corners for the thumb */
+    background-color: #FFA400; 
+    border-radius: 5px; 
   }
   
   ::-webkit-scrollbar-track {
-    background-color: rgb(70, 70, 70); /* Color of the track (the background) */
+    background-color: rgb(70, 70, 70); 
   }
+  @media (max-width: 768px) {
+    .scrollable-container {
+      overflow: hidden;
+    }
+  }
+  
+  
+  
+  
+  
+  
   

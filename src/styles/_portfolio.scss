@@ -12,7 +12,7 @@
             width: 90%;
             height: 34vh;
             background-color: #252525;
-            border-radius: 40px;
+            border-radius: 30px;
           /*   border-bottom: 1px solid #FFA400; */
             display: flex;
             flex-direction: row;
@@ -20,14 +20,15 @@
             margin: 3% auto;
             text-align: center;
             padding: 10px;
+            box-shadow: 0px 4px 4px 0px rgba(29, 29, 29, 0.25);
             .projects-item-img {
                 width: 50%;
                 height:  30.62vh;
                 overflow: hidden; 
                 cursor: pointer;
-                border-radius: 40px;
+                border-radius: 25px;
                 margin: 1% ;
-                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                box-shadow: 0px 4px 4px 0px rgba(29, 29, 29, 0.25);
                 .scrolling-image{
                     width: 100%;
                     height: auto;
@@ -39,14 +40,16 @@
                   }
             }
             .projects-item-text{
-                width: 35%;
+                width: 40%;
                 h3{
                     font-size: 1.2vw;
                     color: #FFA400;
                 }
                 p{
-                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    font-size: 1.2vw;
+                    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+                    font-size: 1.1vw;
+                    color: #fafafa;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 }
                 .tech{
                     display: flex;
@@ -73,6 +76,8 @@
                 }
                 img{
                     cursor: pointer;
+                    width: 2vw;
+                    height: 4vh;
                 }
             }
 
@@ -80,7 +85,84 @@
     }
 
 
+    @media screen and (max-width: 767px){
+        .projects-container{
+            margin: 10% auto;
+            width: 100%;
+            height: 100%;
+            .projects-item{
+                width: 85%;
+                height: 70vh;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 10% ;
+                .projects-item-img{
+                    width: 100%;
+                    height: 50%;
+                }
+                .projects-item-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 90%;
+                    height: 30%;
+                    margin: 0 auto;
+                    padding: 0;
+                    h3{
+                        font-size: 5.5vw;
+                        margin-top: -4%;
+                    }
+                    .description{
+                        font-size: 3vw;
+                        margin-top: -4%;
+                    }
+                    .tech{
+                        display: flex;
+                        align-items: center;
+                        margin: 0 ;
+                        padding: 0;
+                        gap: 30px;
+                        p{
+                            font-size: 3.2vw;
+                            box-shadow: 0px 4px 4px 0px rgba(29, 29, 29, 0.25);
+                            margin-left: -5%;
+                        }
+                        
+                    }
+                }
+                .projects-item-links{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 100%;
+                    height: 10%;
+                    margin: 0 15%;
+                    padding: 0;
+                    gap: 40px;
+                    .links-item{
+                        display: inline-flex;
+                        align-items: center;
+                        height: 10%;
+                        width: 50%;
+                        justify-content: center;
+                        img{
+                            width: 7vw;
+                            padding-right: 10px;
 
+                        }
+                        p{
+                            padding-top: 20%;
+                        }
+                      
+                       
+                    }
+                }
+
+            }
+        }
+    }
 
 
 

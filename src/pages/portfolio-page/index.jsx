@@ -19,18 +19,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                        <div>
+                        <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
@@ -42,18 +42,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                            <div>
+                            <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
@@ -65,18 +65,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                            <div>
+                            <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
@@ -88,18 +88,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                            <div>
+                            <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
@@ -111,18 +111,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                            <div>
+                            <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
@@ -134,18 +134,18 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-text">
                             <h3>Harmony-Real Estate</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
+                            <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?</p>
                         <div className='tech'>
                             <p>VanillaJS</p>
                             <p>SCSS</p>
                         </div>
                         </div>
                         <div className="projects-item-links">
-                            <div>
+                            <div className='links-item'>
                                 <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
                             </div>
-                            <div>
+                            <div className='links-item'>
                                 <img src={linkicon} alt="linkto-icon" />
                                 <p>Live preview</p>
                             </div>
