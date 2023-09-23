@@ -120,34 +120,6 @@
     }
     
 }
-@media screen and (max-width: 767px){
-    .home-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .home-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .home-container .links-container {
-        position: relative;
-        margin-top: 5%;
-        margin-left: 0;
-        padding: 0;
-        display: flex;
-    }
-    h3{
-        font-size: 14vw;
-    }
-}
-
-
-
-
 #tsparticles{ 
     position:fixed;
     top: 0;
@@ -162,4 +134,71 @@
       z-index: -1;
       
      }
+
+
+
+@media screen and (max-width: 767px){
+    .home-container{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10% auto;
+        .home-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .wave{
+                width: 5vw;
+                height: 4vh;
+            }
+            h3{
+                font-size: 5vw;
+            }
+            h1{
+                font-size: 8.7vw;
+            }
+            p{
+                font-size: 2.5vw;
+                width: 90%;
+            }
+            .glow-on-hover{
+                margin-top: 3%;
+                width: 55.7vw;
+                height: 5vh;
+                font-size: 3vw;
+            }
+           
+            
+            .links-container{
+                position: relative;
+                top: 15%;
+                left: 0;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .links-item {
+                    width: 100%;
+                    padding: 15%; 
+                }
+                .links-item img {
+                    display: block;
+                    
+                  }
+                .line{
+                    display: none;
+                }
+               }
+
+        }
+
+}
+}
+
+
      

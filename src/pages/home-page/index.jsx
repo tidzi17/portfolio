@@ -14,7 +14,7 @@ function Home(){
         <div className="home-container">
             <ParticleBg />
             <div className="home-content">
-                {/* <div> */}
+                
                <div style={{display:'inline-flex', alignItems: 'center', gap: '5px'}}><h3>Hi there!</h3>  <img src={wave} alt="" className='wave'/></div> 
                 <h1>I'm Tijana,<br /><span>Front-End</span> Developer.</h1>
                 <p>A passionate Frontend developer and web design
@@ -24,7 +24,6 @@ function Home(){
                       new technologies and design trends to craft 
                       immersive and user-centric digital experiences.</p>
                     <Link to={"./portfolio"}><button className="glow-on-hover" type="button">Check out my work!</button></Link>
-                    {/* </div> */}
                     <div className="links-container">
                         <img src={giticon} alt="github-icon" className='links-item'/>
                         <img src={linked} alt="linkedin-icon" className='links-item'/>
