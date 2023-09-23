@@ -9,8 +9,8 @@ function Contact(){
     return(
         <div className="contact-container">
             <header className="headings-container">
-                <p className="heading-first">Contact</p>
-                <p className="heading-second">Get in touch</p>
+                <p className="heading-first" id="first">Contact</p>
+                <p className="heading-second" id="second">Get in touch</p>
             </header>
             <div className="contact-content">
                 <div className="cinfo">

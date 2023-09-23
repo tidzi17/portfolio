@@ -49,3 +49,23 @@ form{
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 767px){
+    .form-container{
+        width: 80vw;
+        margin: 0 auto;
+        form{
+            width: 100%;
+            
+        .inputs{
+            width: 100%;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        textarea{
+            width: 95%;
+        }
+    }
+    }
+}

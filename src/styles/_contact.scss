@@ -55,3 +55,51 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width: 767px){
+    .contact-container{
+        width: 100%;
+        height: 120vh;
+        #first{
+            letter-spacing: 8px;
+        }
+        #second{
+            letter-spacing: 0;
+        }
+        .contact-content{
+            display: flex;
+            flex-direction: column;
+            margin: 2% 5%;
+            width: 100%;
+            .cinfo{
+                margin-bottom: 5%;
+                width: fit-content;
+                height: fit-content;
+                h4{
+                    width: 85%;
+                    font-size: 7vw;
+                    text-align: center;
+                }
+                p{
+                    font-size: 4vw;
+                    text-align: center;
+                    
+                }
+                .social-icons-container{
+                    margin: 0 25%;
+                    .icons{
+                        .icons-item{
+                            width: 6vw;
+                            height: 4vh;
+                        }
+                    }
+                }
+            }
+        }
+        .contact-form{
+            width: 90vw;
+        }
+    }
+   
+
+}
