@@ -158,20 +158,23 @@
             }
             h3{
                 font-size: 5.4vw;
+                font-weight: 200;
             }
             h1{
                 font-size: 8.8vw;
                 margin-top: -6%;
             }
             p{
-                font-size: 2.7vw;
+                font-size: 3vw;
                 width: 90%;
+                
             }
             .glow-on-hover{
                 margin-top: 3%;
                 width: 55.7vw;
                 height: 5vh;
                 font-size: 3vw;
+                border: 1px solid $primary;
             }
            
             
