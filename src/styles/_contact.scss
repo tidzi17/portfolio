@@ -69,10 +69,10 @@
         .contact-content{
             display: flex;
             flex-direction: column;
-            margin: 2% 5%;
+            margin: 2% 8%;
             width: 100%;
             .cinfo{
-                margin-bottom: 5%;
+                margin: 5% auto;
                 width: fit-content;
                 height: fit-content;
                 h4{
@@ -98,6 +98,7 @@
         }
         .contact-form{
             width: 90vw;
+            margin: 0 2%;
         }
     }
    

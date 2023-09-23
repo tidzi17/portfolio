@@ -53,7 +53,6 @@ form{
 @media screen and (max-width: 767px){
     .form-container{
         width: 80vw;
-        margin: 0 auto;
         form{
             width: 100%;
             
@@ -62,9 +61,11 @@ form{
             gap: 20px;
             display: flex;
             flex-direction: column;
+            margin: 0;
         }
         textarea{
             width: 95%;
+            
         }
         button{
             margin-top: 9%;

@@ -27,9 +27,7 @@ function Contact(){
                     </div>
                 </div>
                 <div className="contact-form">
-                    
                     <ContactForm />
-                    
                 </div>
             </div>
         </div>
