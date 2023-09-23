@@ -15,7 +15,7 @@ function Home(){
             <ParticleBg />
             <div className="home-content">
                 
-               <div style={{display:'inline-flex', alignItems: 'center', gap: '5px'}}><h3>Hi there!</h3>  <img src={wave} alt="" className='wave'/></div> 
+               <div style={{display:'inline-flex', alignItems: 'center', gap: '5px'}} className='hey'><h3>Hi there!</h3>  <img src={wave} alt="" className='wave'/></div> 
                 <h1>I'm Tijana,<br /><span>Front-End</span> Developer.</h1>
                 <p>A passionate Frontend developer and web design
                      enthusiast with an insatiable curiosity for 
