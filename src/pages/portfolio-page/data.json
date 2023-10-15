@@ -1,0 +1,47 @@
+ 
+ [
+    {
+        "id":1,
+        "title": "Rent a car",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    },
+    {
+        "id" :2,
+        "title": "Real Estate",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    },
+    {
+        "id" :3,
+        "title": "E-commerce",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    },
+    {
+        "id" :4,
+        "title": "Weather App",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    },
+    {
+        "id" :5,
+        "title": "Recipe App",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    },
+    {
+        "id" :6,
+        "title": "Something Mby",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "React.js",
+        "techSecond": "VanillaCSS"
+    }
+    
+]
+ 
