@@ -12,28 +12,28 @@
         "title": "Real Estate",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
         "techFirst": "React.js",
-        "techSecond": "VanillaCSS"
+        "techSecond": "SCSS"
     },
     {
         "id" :3,
         "title": "E-commerce",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
         "techFirst": "React.js",
-        "techSecond": "VanillaCSS"
+        "techSecond": "SCSS"
     },
     {
         "id" :4,
         "title": "Weather App",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
         "techFirst": "React.js",
-        "techSecond": "VanillaCSS"
+        "techSecond": "TailwindCSS"
     },
     {
         "id" :5,
         "title": "Recipe App",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
         "techFirst": "React.js",
-        "techSecond": "VanillaCSS"
+        "techSecond": "SCSS"
     },
     {
         "id" :6,
