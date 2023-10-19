@@ -1,5 +1,5 @@
 import React from 'react';
-import imgs from '../../assets/page1.jpg';
+
 import giticon from '../../assets/githubwhite.png';
 import linkicon from '../../assets/link.png';
 import '../../styles/main.scss';
@@ -18,7 +18,7 @@ function Portfolio(){
             {projectData.map((project) =>(
                     <div className="projects-item" key={project.id}>
                         <div className="projects-item-img">
-                            <img src={imgs} alt={project.title} className="scrolling-image"/>
+                            <img src={project.image} alt={project.title} className="scrolling-image"/>
                         </div>
                         <div className="projects-item-text">
                             <h3>{project.title}</h3>
