@@ -30,17 +30,23 @@ function Portfolio(){
                         </div>
                         <div className="projects-item-links">
                         <div className='links-item'>
-                                <img src={giticon} alt="github-icon" />
+                        <a href={project.codeurl}  target='blank'>  <img src={giticon} alt="github-icon" />
                                 <p>Code</p>
+                                </a>
                             </div>
                             <div className='links-item'>
-                                <img src={linkicon} alt="linkto-icon" />
+                            <a href={project.liveurl} target='blank'> <img src={linkicon}  alt="linkto-icon" />
                                 <p>Live preview</p>
+                                </a>
                             </div>
+                            
                         </div>
                     </div>
                  
                  ))}
+            </div>
+            <div className='soon'>
+                <p>New projects comming soon...</p>
             </div>
         </div>
     )

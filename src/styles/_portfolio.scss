@@ -5,7 +5,7 @@
 
 .projects-container{
     width: 75vw;
-    height: 250vh;
+    height: max-content;
     margin: 3% auto;
     color: white;
         .projects-item{
@@ -36,7 +36,7 @@
                     transition: transform 9s ease-in-out; 
                 }
                 &:hover .scrolling-image {
-                    transform: translateY(-1350px);
+                    transform: translateY(-1450px);
                   }
             }
             .projects-item-text{
@@ -73,18 +73,31 @@
                 gap: 6%;
                 p{
                     margin-top: -1%;
+                    color: whitesmoke;
+                    text-decoration: none;
                 }
                 img{
                     cursor: pointer;
                     width: 2vw;
                     height: 4vh;
                 }
+                a{
+                    text-decoration: none;
+                }
             }
 
         }
     }
 
-
+.soon{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 5vw;
+    font-style: italic;
+    font-weight: 700;
+    color: $primary;
+}
     @media screen and (max-width: 767px){
         .projects-container{
             margin: 10% auto;
