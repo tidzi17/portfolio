@@ -47,7 +47,7 @@ function About(){
                   <img src={skill3} alt="js-icon" id='skill3' className='skills-item'/>
                   <img src={skill4} alt="react-icon" id='skill4' className='skills-item'/>
                   <img src={skill5} alt="sass-icon" id='skill5' className='skills-item'/>
-{/*                   <img src={skill6} alt="tailwind-icon" id='skill6' className='skills-item'/> */}
+{                  <img src={skill6} alt="tailwind-icon" id='skill6' className='skills-item'/>}
                   <img src={skill7} alt="figma-icon" id='skill7' className='skills-item'/>
                 </div>
               </div>
