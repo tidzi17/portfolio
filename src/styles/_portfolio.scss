@@ -29,16 +29,33 @@
                 border-radius: 25px;
                 margin: 1% ;
                 box-shadow: 0px 4px 4px 0px rgba(29, 29, 29, 0.25);
+              
                 .scrolling-image{
                     width: 100%;
                     height: auto;
                     transform: translateX(0); 
                     transition: transform 9s ease-in-out; 
+                   
                 }
                 &:hover .scrolling-image {
                     transform: translateY(-1450px);
                   }
+                 
+                
+                 
             }
+            .projects-item-img.weather-app-img{
+                img{
+                    transition: none; /* Remove transition for this image */
+                transform: none;
+                &:hover{
+                    transform: none;
+                }
+                }
+                
+            }
+           
+            
             .projects-item-text{
                 width: 40%;
                 h3{

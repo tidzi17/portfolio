@@ -12,6 +12,17 @@
     },
     {
         "id" :2,
+        "title": "Weather App",
+        "image": "/projectsimg/weather-app.png",
+        "imageID": "weather-app-img",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",
+        "techFirst": "VanillaJS",
+        "techSecond": "SCSS",
+        "codeurl": "https://github.com/tidzi17/weather-app",
+        "liveurl": "https://weatherby.vercel.app/"
+    },
+    {
+        "id" :3,
         "title": "Real Estate",
         "image": "/projectsimg/harmony.png",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, distinctio ipsum. Quaerat vitae velit est fugit eos nihil ad! Rerum sit commodi aspernatur totam rem explicabo incidunt nesciunt cum dolor?",

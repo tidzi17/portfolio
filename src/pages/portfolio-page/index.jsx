@@ -17,8 +17,8 @@ function Portfolio(){
             <div className="projects-container">
             {projectData.map((project) =>(
                     <div className="projects-item" key={project.id}>
-                        <div className="projects-item-img">
-                            <img src={project.image} alt={project.title} className="scrolling-image"/>
+                        <div className={`projects-item-img ${project.imageID === 'weather-app-img' ? 'weather-app-img' : ''}`}>
+                           <a href={project.liveurl} target='blank'> <img src={project.image} alt={project.title} className="scrolling-image" /></a>
                         </div>
                         <div className="projects-item-text">
                             <h3>{project.title}</h3>
