@@ -46,7 +46,7 @@ function Portfolio(){
                  ))}
             </div>
             <div className='soon'>
-                <p>New projects comming soon...</p>
+                <p>New projects coming soon...</p>
             </div>
         </div>
     )
