@@ -19,12 +19,10 @@ function Contact(){
                          to discussing new projects, creative ideas,
                           or collaboration opportunities that align with your vision.</p>
                     <div className="social-icons-container">
-                        <div className="icons">
-                        <img src={linkicon} alt="linkedin-icon" className="icons-item"/>
-                        <img src={mailicon} alt="mail-icon" className="icons-item" id="second-item"/>
-                        <img src={githubicon} alt="github-icon" className="icons-item"/>
+                    <a href='https://www.linkedin.com/in/tijana-djudjic-0a6b3b278/'  target='blank'> <img src={linkicon} alt="linkedin-icon" className="icons-item"/></a>
+                        <a href='mailto:tidzi15110@gmail.com'  target='blank' > <img src={mailicon} alt="mail-icon" className="icons-item" id="second-item"/></a>
+                        <a href='https://github.com/tidzi17'  target='blank'> <img src={githubicon} alt="github-icon" className="icons-item"/></a>
                         </div>
-                    </div>
                 </div>
                 <div className="contact-form">
                     <ContactForm />

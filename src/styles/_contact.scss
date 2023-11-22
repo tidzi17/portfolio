@@ -30,14 +30,14 @@
            
         }
         .social-icons-container{
-            width: 150px;
+            width: 170px;
             height: fit-content;
             margin-top: 15%;
-            .icons{
-                padding: 0 auto;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+            padding: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a{
                 .icons-item{
                     width: 35px;
                     height: 35px;
@@ -47,6 +47,8 @@
                     margin-top: 5%;
                 }
             }
+             
+            
             
         }
     }
@@ -87,11 +89,12 @@
                 }
                 .social-icons-container{
                     margin: 0 25%;
-                    .icons{
-                        .icons-item{
-                            width: 6vw;
-                            height: 4vh;
-                        }
+                    width: 200px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    a{
+                        text-decoration: none;
                     }
                 }
             }

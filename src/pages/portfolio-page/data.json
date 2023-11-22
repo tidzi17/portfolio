@@ -3,6 +3,7 @@
     {
         "id":1,
         "title": "Rent a car",
+        "made": "jul. 2023",
         "image": "/projectsimg/carrental.png",
         "description": "DriveXcellence is an exclusive rent-a-car platform designed for luxury enthusiasts. Offering a wide range of sports vehicles, the website provides users with a seamless search and booking process.",
         "techFirst": "React.js",
@@ -13,6 +14,7 @@
     {
         "id" :2,
         "title": "Weather App",
+        "made": "nov. 2023",
         "image": "/projectsimg/weather-app.png",
         "imageID": "weather-app-img",
         "description": "WeatherBy is a user-friendly weather application that delivers real-time weather updates. Users can effortlessly check the current weather, 5-day forecast, and more.",
@@ -24,6 +26,7 @@
     {
         "id" :3,
         "title": "Real Estate",
+        "made": "sep. 2023",
         "image": "/projectsimg/harmony.png",
         "description": "Harmony Residence, a real estate project, offers an apartment showcase along with a user-friendly mortgage calculator. This feature allows users to explore available living spaces and plan their finances efficiently.",
         "techFirst": "React.js",

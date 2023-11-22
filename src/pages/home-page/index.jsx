@@ -25,9 +25,9 @@ function Home(){
                       immersive and user-centric digital experiences.</p>
                     <Link to={"./portfolio"}><button className="glow-on-hover" type="button">Check out my work!</button></Link>
                     <div className="links-container">
-                        <img src={giticon} alt="github-icon" className='links-item'/>
-                        <img src={linked} alt="linkedin-icon" className='links-item'/>
-                        <img src={mailicon} alt="mail-icon" className='links-item'/>
+                        <a href='https://github.com/tidzi17'  target='blank'><img src={giticon} alt="github-icon" className='links-item'/></a>
+                        <a href='https://www.linkedin.com/in/tijana-djudjic-0a6b3b278/'  target='blank'><img src={linked} alt="linkedin-icon" className='links-item'/></a>
+                        <a href='mailto:tidzi15110@gmail.com'  target='blank' ><img src={mailicon} alt="mail-icon" className='links-item'/></a>
                         <div className='line'></div>
                     </div>
             </div>

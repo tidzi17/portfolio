@@ -21,7 +21,7 @@ function Portfolio(){
                            <a href={project.liveurl} target='blank'> <img src={project.image} alt={project.title} className="scrolling-image" /></a>
                         </div>
                         <div className="projects-item-text">
-                            <h3>{project.title}</h3>
+                            <h3>{project.title} <span>[{project.made}]</span></h3>
                             <p className='description'>{project.description}</p>
                         <div className='tech'>
                             <p>{project.techFirst}</p>
